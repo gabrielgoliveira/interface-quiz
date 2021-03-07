@@ -41,13 +41,13 @@ http://localhost:3000/
 ## Telas da Aplicação
 
 ### Tela de Início 
-<img src="prints/tela1.png" alt="Tela 1" width="400"/>
+<img src="prints/tela1.PNG" alt="Tela 1" width="400"/>
 
 ### Tela principal
-<img src="prints/tela2.png" alt="Tela 1" width="400"/>
+<img src="prints/tela2.PNG" alt="Tela 2" width="400"/>
 
 ### Tela Game Over
-<img src="prints/tela3.png" alt="Tela 1" width="400"/>
+<img src="prints/tela3.PNG" alt="Tela 3" width="400"/>
 
 #### Tela Ganhador
-<img src="prints/tela4.png" alt="Tela 1" width="400"/>
+<img src="prints/tela4.PNG" alt="Tela 4" width="400"/>
