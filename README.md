@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Quiz Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O jogo deve começar com uma tela que contenha uma mensagem de boas vindas e um botão "Iniciar Jogo". Após o usuário clicar neste botão, a tela de boas vindas deve sumir e deve aparecer a primeira pergunta. Caso o usuário acerte, a próxima pergunta deve ser mostrada. Caso ele erre, um overlay preto (com a transparência a sua escolha) deve ser mostrado sobre a interface, com uma mensagem que ele perdeu o jogo e com um botão para que ele recomece o quiz. Caso ele acerte todas as perguntas, a interface deve mostrar uma mensagem parabenizando-o e um botão para que ele recomece o jogo.
 
-## Available Scripts
+## Tecnologias
 
-In the project directory, you can run:
+- Foi utilizado React JS para construir a interface.
+- lib *react-router-dom* para tratar as rotas da interface.
 
-### `yarn start`
+## Conceitos de React JS aplicados nesse projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Components
+- State
+- Props
+- Comunicação entre Components
+- Ciclo de Vida de um Component
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Instalação
 
-### `yarn test`
+Quiz Challenge requer o [Node.js](https://nodejs.org/) v10+. Para mais agilidade na instalação das dependênicas, recomendo o uso do yarn como gerenciador de dependênicas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para instalar as dependências da aplicação :
 
-### `yarn build`
+```sh
+cd interface-quiz
+yarn install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para iniciar a aplicação :
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+yarn start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para acessar a interface é só acessar em seu navegador :
 
-### `yarn eject`
+```sh
+http://localhost:3000/
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Telas da Aplicação
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Tela de Início 
+<img src="prints/tela1.png" alt="Tela 1" width="400"/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Tela principal
+<img src="prints/tela2.png" alt="Tela 1" width="400"/>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Tela Game Over
+<img src="prints/tela3.png" alt="Tela 1" width="400"/>
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Tela Ganhador
+<img src="prints/tela4.png" alt="Tela 1" width="400"/>
