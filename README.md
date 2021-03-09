@@ -22,6 +22,7 @@ Quiz Challenge requer o [Node.js](https://nodejs.org/) v10+. Para mais agilidade
 Para instalar as dependências da aplicação :
 
 ```sh
+git clone https://github.com/gabrielgoliveira/interface-quiz.git
 cd interface-quiz
 yarn install
 ```
@@ -45,6 +46,8 @@ http://localhost:3000/
 
 ### Tela principal
 <img src="prints/tela2.PNG" alt="Tela 2" width="400"/>
+
+O componente de questões realiza a comunicação com o seu pai, atualizando o placar.
 
 ### Tela Game Over
 <img src="prints/tela3.PNG" alt="Tela 3" width="400"/>

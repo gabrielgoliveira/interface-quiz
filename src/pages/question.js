@@ -25,7 +25,7 @@ export default function Question(){
                 },
                 {
                     "id": "2",
-                    "option_description" : "Opção 2"
+                    "option_description" : "No Map qualquer objeto pode ser uma chave. No Set as chaves são os indices do Array, ele não guarda valores repetidos"
                 },
                 {
                     "id": "3",
@@ -51,7 +51,7 @@ export default function Question(){
                 },
                 {
                     "id": "2",
-                    "option_description" : "Opção 2"
+                    "option_description" : "Um closure é uma função que se lembra do ambiente ou escopo lexico no qual ela foi criada"
                 },
                 {
                     "id": "3",
@@ -77,7 +77,10 @@ export default function Question(){
                 },
                 {
                     "id": "2",
-                    "option_description" : "Opção 2"
+                    "option_description" : ("Pseudo-classes são usadas para definir um estado especial para o objeto, como por exemplo,"
+                    +" :hover, que quando o usuário passa o mouse por cima de um objeto, os estilos definidos em classe:hover são ativados"+
+                    "economizando JS. Já os pseudo elementos nos ajudam a referenciar parte de algum elemento"
+                    +" como ::first-letter, que aplica alguma propriedade na primeira letra de um texto")
                 },
                 {
                     "id": "3",
@@ -99,19 +102,19 @@ export default function Question(){
             "options_list" : [
                 {
                     "id": "1",
-                    "option_description" : "Opção 1"
+                    "option_description" : "<form>"
                 },
                 {
                     "id": "2",
-                    "option_description" : "Opção 2"
+                    "option_description" : "<table>, <tr> - table row, <td> - table data"
                 },
                 {
                     "id": "3",
-                    "option_description" : "Opção 3"
+                    "option_description" : "<h1>"
                 },
                 {
                     "id": "4",
-                    "option_description" : "Opção 4"
+                    "option_description" : "<p>"
                 }
             ],
             
@@ -129,7 +132,8 @@ export default function Question(){
                 },
                 {
                     "id": "2",
-                    "option_description" : "Opção 2"
+                    "option_description" : ("CSS Grid é multidimensional (o layout pode ser organizado como uma tabela), ou seja, "
+                    +"linhas e colunas. Já o flexbox Flexbox é unidimensiona")
                 },
                 {
                     "id": "3",
